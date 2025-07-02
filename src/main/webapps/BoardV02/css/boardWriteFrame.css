@@ -1,0 +1,99 @@
+/* <div> 레이아웃 */
+#wrapper{
+ width:1340px; 
+ margin:auto;
+}
+/* ----------------------------------------- */
+table{
+  width: 800px;
+  margin:auto;
+}
+
+input::placeholder {
+  padding: 7px;
+  color: saddlebrown;
+  opacity: 0.5;
+  position: absolute; /* 절대 위치 지정 */
+  top: 0;
+  left: 0;
+}
+
+.contents {
+  width: 650px;
+  height:300px;
+  position: relative;
+}
+
+.title {
+  width: 650px;
+}
+
+.td {
+  font-family: cursive;
+  color: cornsilk;
+  text-align: center;
+  background-color: saddlebrown;
+  width: 150px;
+  height: 20px;
+  font-size: 20px;
+}
+
+input {
+  font-family: serif;
+  font-weight:bold;
+  height: 40px;
+  width: 244px;
+  border: 3px solid saddlebrown;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  color:saddlebrown;
+}
+
+form{
+  width: 900px;
+  margin: auto;
+}
+
+form div {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: saddlebrown;
+  font-family: sans-serif;
+}
+
+#list {
+  width: 700px;
+  display: inline-block;
+  text-align: right;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family:serif;
+  font-weight:bold';
+}
+
+#list:hover {
+  cursor: pointer;
+}
+
+.button {
+  background-color: saddlebrown;
+  color: moccasin;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: burlywood;
+  color: saddlebrown;
+}

@@ -1,0 +1,88 @@
+#wrapper {
+    width: 1700px;
+    margin: auto;
+    text-align: center;
+}
+
+p, .col {
+    background-color: cornsilk;
+    width: 150px;
+    text-align: center;
+    color: saddlebrown;
+    padding: 10px;
+    font-family: serif;
+    border: 1px solid saddlebrown;
+    margin: auto;
+    font-weight: bold;    
+}
+
+.col {
+    margin-bottom: 10px;
+    color: white;
+    background-color: saddlebrown;
+}
+
+.div {
+    width: 150px;
+    margin: auto;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.recoredDataDiv {
+  display: inline-block;
+  width: 900px;
+  margin: auto;
+}
+
+.numDiv {
+  display: inline-block;
+  border: 1px solid saddlebrown;
+  width: 100px;
+  padding: 5px;
+}
+
+.dataDiv {
+  display: inline-block;
+  border: 1px solid saddlebrown;
+  width: 600px;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
+/*---------------------------------------------*/
+
+/* 중간 위치 */
+.center {
+    text-align: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.pagination a {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: saddlebrown;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid saddlebrown;
+  border-radius: 5px;
+  margin: 0 2px;
+}
+/* 활성화된 페이지 */
+.pagination a.active {
+  background-color: saddlebrown;
+  color: white;
+  border: 1px solid saddlebrown;
+}
+/* 비활성화 페이지 */
+.pagination a:hover:not(.active) {background-color: burlywood;}
+
